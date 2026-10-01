@@ -1,0 +1,6 @@
+{
+  "name": "MediaFlow",
+  "description": "Save permitted media from supported platforms with format selection, download manager, and library",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

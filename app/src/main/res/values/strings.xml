@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">MediaFlow</string>
+    <string name="app_subtitle">Save permitted media from supported platforms</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_downloads">Downloads</string>
+    <string name="nav_library">Library</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="url_input_placeholder">Paste YouTube or Instagram link…</string>
+    <string name="btn_paste">Paste URL</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_analyze">Analyze</string>
+    <string name="supported_platforms_title">Supported Platforms</string>
+    <string name="platform_youtube">YouTube</string>
+    <string name="platform_instagram">Instagram</string>
+    <string name="platform_yt_desc">Videos, Shorts, public audio</string>
+    <string name="platform_ig_desc">Public Reels, Posts, Videos</string>
+    <string name="recent_downloads_title">Recent Downloads</string>
+    <string name="no_recent_downloads">No recent downloads yet</string>
+    <string name="clipboard_detected_title">Supported Link Detected</string>
+    <string name="clipboard_detected_desc">Would you like to analyze this link from your clipboard?</string>
+    <string name="action_dismiss">Dismiss</string>
+
+    <!-- Content Rights Notice -->
+    <string name="content_rights_title">Media Content Rights &amp; Policy Notice</string>
+    <string name="content_rights_message">MediaFlow is intended exclusively for saving publicly accessible media that you own, have permission to use, or are otherwise legally authorized to save.\n\nPlatform Terms of Service, rate limits, and copyright laws apply. MediaFlow does not bypass DRM, access controls, private accounts, or authentication protections.</string>
+    <string name="content_rights_agree">I Understand &amp; Agree</string>
+
+    <!-- Media Analyzer & Preview -->
+    <string name="analyzer_title">Media Details</string>
+    <string name="video_formats_header">Video Formats</string>
+    <string name="audio_formats_header">Audio Formats</string>
+    <string name="btn_start_download">Download Selected Format</string>
+    <string name="format_duration_label">Duration</string>
+    <string name="format_creator_label">Creator</string>
+    <string name="format_views_label">Views</string>
+    <string name="format_platform_label">Platform</string>
+
+    <!-- Downloads Screen -->
+    <string name="tab_active">Active</string>
+    <string name="tab_completed">Completed</string>
+    <string name="tab_failed">Failed</string>
+    <string name="btn_pause_all">Pause All</string>
+    <string name="btn_resume_all">Resume All</string>
+    <string name="btn_cancel_all">Cancel All</string>
+    <string name="btn_clear_completed">Clear Completed</string>
+    <string name="btn_retry_failed">Retry Failed</string>
+    <string name="action_open">Open</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="empty_active_downloads">No active downloads running</string>
+    <string name="empty_completed_downloads">No completed downloads found</string>
+    <string name="empty_failed_downloads">No failed downloads</string>
+
+    <!-- Library Screen -->
+    <string name="library_title">Media Library</string>
+    <string name="category_all">All</string>
+    <string name="category_videos">Videos</string>
+    <string name="category_audio">Audio</string>
+    <string name="search_placeholder">Search saved media…</string>
+    <string name="empty_library">No saved files found in MediaFlow library</string>
+    <string name="file_renamed_success">File renamed successfully</string>
+    <string name="file_deleted_success">File deleted successfully</string>
+    <string name="dialog_rename_title">Rename File</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Download History</string>
+    <string name="clear_history_dialog_title">Clear Download History?</string>
+    <string name="clear_history_dialog_desc">This removes logs from your history. Local files will not be deleted.</string>
+    <string name="empty_history">Your download history is clean</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="section_appearance">Appearance</string>
+    <string name="section_downloads">Download Preferences</string>
+    <string name="section_storage">Storage</string>
+    <string name="section_privacy">Privacy &amp; Terms</string>
+    <string name="section_about">About</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="pref_wifi_only">Download on Wi-Fi only</string>
+    <string name="pref_wifi_only_desc">Avoid data consumption on mobile networks</string>
+    <string name="pref_default_video_quality">Default Video Quality</string>
+    <string name="pref_default_audio_quality">Default Audio Quality</string>
+    <string name="pref_max_concurrent">Max Concurrent Downloads</string>
+    <string name="pref_download_folder">Save Location</string>
+    <string name="pref_download_folder_desc">Android MediaStore (Movies &amp; Music / MediaFlow)</string>
+    <string name="pref_clear_cache">Clear temporary files</string>
+    <string name="pref_clear_history">Clear all history</string>
+    <string name="about_version">MediaFlow v1.0.0 (Production Release)</string>
+    <string name="about_developer">Engineered with Kotlin &amp; Material 3</string>
+
+    <!-- Error Messages -->
+    <string name="error_invalid_url">Please enter a valid YouTube or Instagram URL.</string>
+    <string name="error_unsupported_content">This content cannot be processed.</string>
+    <string name="error_private_content">This content is private or requires authentication.</string>
+    <string name="error_restricted_content">This content cannot be accessed through MediaFlow.</string>
+    <string name="error_network_failure">Unable to connect. Check your internet connection and try again.</string>
+    <string name="error_provider_unavailable">The media service is temporarily unavailable. Please try again later.</string>
+    <string name="error_storage_failure">Unable to save the file. Check available storage.</string>
+</resources>
